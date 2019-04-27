@@ -24,6 +24,7 @@ from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 import actionlib
 from actionlib_msgs.msg import *
 from geometry_msgs.msg import Pose, Point, Quaternion
+import sys
 
 class GoToPose():
     def __init__(self):
@@ -75,6 +76,8 @@ class GoToPose():
         rospy.sleep(1)
 
 if __name__ == '__main__':
+    x = sys.argv[1]
+    y = sys.argv[2]
     try:
         rospy.init_node('nav_test', anonymous=False)
         navigator = GoToPose()
