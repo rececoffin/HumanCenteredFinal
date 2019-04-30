@@ -1,0 +1,14 @@
+Patrol Robot
+Rece Coffin, Hannah Lee, Jordan Ritchie, Michelle Hulongbayan
+
+To Run:
+This program requires a map of the designated area to be already built and saved on the machine
+running this code!!
+
+After a map has been created, modify the "run.sh" file to point to the location of the map. then
+execute the "run.sh" file.
+
+Modify the "patrol.py" file to set the coordinates for where you would like the robot to go.
+After entering the desired coordinates, safe the file and run it using the commans "python navigate.py"
+The robot should then automatically drive to the desired location, and then back to it's starting
+point.
