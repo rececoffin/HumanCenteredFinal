@@ -5,6 +5,8 @@ To Run:
 This program requires a map of the designated area to be already built and saved on the machine
 running this code!!
 
+This program also requires that the "find_object_2d" library be installed
+
 After a map has been created, modify the "run.sh" file to point to the location of the map. then
 execute the "run.sh" file.
 
